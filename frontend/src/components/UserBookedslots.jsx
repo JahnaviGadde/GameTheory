@@ -21,7 +21,7 @@ export default function UserBookedSlots() {
     };
 
     fetchUserBookings();
-  }, [context.user.user._id]);
+  }, [context.user.user.id]);
 
   return (
     <div className="allcentres">

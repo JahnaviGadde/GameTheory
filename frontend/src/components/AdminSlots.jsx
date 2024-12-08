@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Slotstable.css";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams} from "react-router-dom";
 import axios from "axios";
 
 // Main component

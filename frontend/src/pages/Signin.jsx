@@ -10,7 +10,7 @@ export default function Login() {
   const [admin , setadmin] = useState(false);
   const[userrole , setuserrole] = useState(false);
   const Navigate = useNavigate();
-  const { user , isFetching, dispatch } = useContext(AuthContext);
+  const { isFetching, dispatch } = useContext(AuthContext);
 
   const handleLogin = (e) => {
     e.preventDefault();
