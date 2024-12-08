@@ -8,9 +8,13 @@ Using the **MERN stack**, I have implemented the mentioned functionalities given
 
 Website users are of two types:
 - **Users**:  
-  - Login, view slot availability for certain centres, courts, and dates, and book slots.  
+  - Login, view slot availability for certain centres, courts, and dates, and book slots.
+  - test user 1 : email : jahnavi@gmail.com password : 123456
+  - test user 2 : email : gadde@gmail.com password: 123456
 - **Admins**:  
   - Monitor the schedule and create/enable more booking slots for users to avail.
+  - test admin 1 : email : hrt@gmail.com password : 123456
+  - test admin 2 : email : game@gmail.com password : 123456
 
 Implemented **authentication** and **role-based authorization** for certain APIs using **JWT tokens**.
 
