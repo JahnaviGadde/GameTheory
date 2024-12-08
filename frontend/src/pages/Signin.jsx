@@ -27,6 +27,7 @@ export default function Login() {
           
         } catch (err) {
           dispatch({ type: "LOGIN_FAILURE", payload: err });
+          alert("Incorrect credentials")
         }
       }
 
@@ -47,6 +48,7 @@ export default function Login() {
           
         } catch (err) {
           dispatch({ type: "LOGIN_FAILURE", payload: err });
+          alert("Incorrect credentials")
         }
       }
 
