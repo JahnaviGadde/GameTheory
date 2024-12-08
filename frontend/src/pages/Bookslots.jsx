@@ -60,7 +60,7 @@ export default function Bookslots() {
       navigate(`/dashboard/${username}`); 
     } catch (error) {
         console.error("Error booking slot:", error);
-        if (error.response?.status === 401 || error.response?.data?.message === "Invalid token") {
+        if (error.response?.status === 400 || error.response?.data?.message === "Invalid token") {
           alert("Your session has expired. Please log in again.");
           navigate('/');
         } else {
