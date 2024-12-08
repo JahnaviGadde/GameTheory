@@ -1,0 +1,63 @@
+  .calendar-input {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #d6d6d6;
+    border-radius: 6px;
+    background-color: #e3e7ec;
+    color: #495057;
+    cursor: pointer;
+  }
+  
+  .calendar-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .schedule-table {
+    width: 80vw;
+    overflow-x: auto;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .schedule-table thead th {
+    background-color: #f4f4f4;
+    
+  }
+  
+  .schedule-table .court-name {
+    font-weight: bold;
+    background-color: #f9f9f9;
+  }
+  
+  .schedule-table .filled-slot {
+    background-color: #e6f7ff;
+    color: #0056b3;
+  }
+  
+  .schedule-table .empty-slot {
+    background-color: #fff;
+    color: #aaa;
+  }
+  
+  .schedule-table td {
+    min-width: 100px;
+  }
+  
+  .schedule-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  

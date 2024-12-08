@@ -1,0 +1,27 @@
+.centreschedule{
+    display: flex;
+    flex-direction: row;
+}
+
+.schedule{
+    margin: 20px;
+}
+
+.form-container{
+    margin:50px;
+}
+
+.form-container form div {
+    margin:20px;
+}
+
+.form-container form div label {
+    margin-right: 30px;
+}
+
+.form-container form div input{
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

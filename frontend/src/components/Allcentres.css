@@ -1,0 +1,56 @@
+.card-container {
+    display: flex;
+    width: 70vw;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    margin: 20px;
+    justify-content: flex-start; /* Align cards to the left for horizontal scrolling */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    scrollbar-width: thin; /* Thin scrollbar for better aesthetics */
+}
+
+.allcentres{
+    margin: 20px;
+}
+
+.card {
+    background-color: #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    min-width: 300px; /* Ensures consistent card width for scrolling */
+    padding: 20px;
+    text-align: center;
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #343a40;
+    font-weight: bold; /* Makes the title stand out more */
+}
+
+.card-info {
+    font-size: 1em;
+    color: #6c757d;
+    margin: 5px 0;
+}
+
+button {
+    border-radius: 8px; /* Fixes missing radius value */
+    padding: 10px 20px;
+    border: none;
+    background-color: #0b1124;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s; /* Adds a smooth hover effect */
+}
+
+button:hover {
+    background-color: #1c2548; /* Lighter shade on hover for better UX */
+}

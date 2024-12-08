@@ -1,0 +1,45 @@
+.createslots-form-container {
+  margin: 30px 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.createslots-form {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.slot-options {
+  gap: 10px;
+}
+
+.form-actions {
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #0b1124;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #172249;
+}
